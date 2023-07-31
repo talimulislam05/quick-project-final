@@ -1,0 +1,212 @@
+/* common css codes  */
+body{
+    margin: 0;
+}
+
+/* common css codes  */
+
+
+/* header section start */
+header{
+    border-bottom: 3px solid #f0f2f4;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.logo{
+    width: 6.5%;
+    float: left;
+    margin-top: 6px;
+}
+
+.logo img{
+    width: 100%;
+}
+
+.menu{
+    width: 50%;
+    float: right;
+}
+
+.menu ul{
+    float: right;
+}
+
+.menu ul li{
+    list-style: none;
+    float: left;
+
+}
+
+.menu ul li a{
+    text-decoration: none;
+    padding: 0 25px;
+    color: #383b62;
+    transition: .5s;
+}
+
+.menu ul li a:hover{
+    color: #008aff;
+}
+
+.menu ul li:last-child a{
+    padding-right: 0;
+}
+/* header section end  */
+
+
+/* banner section start  */
+.banner{
+    margin: 50px 0px;
+
+}
+
+.container2{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.b-h1{
+    font-size: 45px;
+    color: #0f2656;
+    padding: 0px 349px;
+    line-height: 65px;
+}
+
+.container2 span{
+    color: #008aff;
+}
+
+.b-p{
+    color: #47597d;
+    padding: 0px 255px;
+    line-height: 25px;
+}
+
+.b-img{
+    width: 42%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.b-img img{
+    width: 100%;
+}
+/* banner section start  */
+
+
+/* feature section start */
+.feature{
+    overflow: hidden;
+}
+
+.f-left{
+    width: 49%;
+    float: left;
+}
+
+.f-left h2{
+    text-align: end;
+    font-size: 45px;
+    color: #f15767;
+    margin: 0px;
+    margin-top: 40px;
+}
+
+.f-left p{
+    padding-left: 270px;
+    text-align: end;
+    color: #3c6090;
+}
+
+.f-right{
+    width: 49%;
+    box-sizing: border-box;
+    float: right;
+
+
+}
+
+.f-right h1{
+    padding-right: 240px;
+    font-size: 45px;
+    text-align: left;
+    color: #0f2656;
+}
+/* feature section end */
+
+
+/* service section start  */
+.service{
+    margin: 50px 0px;
+}
+
+.blog-1{
+    width: 32%;
+    padding: 35px 20px;
+    float: left;
+    box-sizing: border-box;
+    margin-right: 2%;
+}
+
+.blog-3{
+    margin-right: 0px;
+}
+
+.blog-img img{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.s-h2{
+    color: #0f2656;
+}
+
+.s-p{
+    padding-right: 90px;
+    color: #0f2656;
+    line-height: 24px;
+}
+
+#blog-1{
+    background-color: #fdebed;
+}
+
+#blog-2{
+    background-color: #ebf9f4;
+}
+
+#blog-3{
+    background-color: #fff7e8;
+}
+/* service section end  */
+
+
+/* footer section start  */
+footer{
+    height: 80px;
+    background-color: #008aff;
+}
+
+footer p{
+    color: #82ceff;
+    padding: 32px;
+    text-align: center;
+
+}
+
+footer span{
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    letter-spacing: 3px;
+}
+
+span a{
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+}
+/* footer section end  */
